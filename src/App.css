@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+h1{
+  color: darkblue;
+  font-weight: 900;
+}
+body{
+  overflow-x: hidden;
+}
+
+input{
+  padding: 15px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-item {
+   margin: 10px;
+   text-align: center;  
+  height: 500px;
+  width: 450px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding: 5px;           /* Add some space around each image */
+  margin: 10px;
+  overflow: hidden;
+}
+
+.add-caption-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.canvas-area {
+  width: 60%;
+  border: 1px solid #ccc;
+}
+
+.control-panel {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid #ccc;
+}
